@@ -10,7 +10,7 @@ echo $res[1];
 //set time zone
 date_default_timezone_set('America/Vancouver');
 
-
+while(1){
 	
 	//remove old signature
 	unlink('/var/www/html/qmd/april_qmd.jpg');

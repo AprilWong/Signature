@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase/
+RewriteCond %{THE_REQUEST}^[A-Z]{3,9}\  .*$[NC]
+RewriteCond %{REQUEST_FILENAME}^+\.php$
+RewriteRule .*-[F,N,S,L]
