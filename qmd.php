@@ -13,7 +13,7 @@ if(preg_match('~data-aria-label-part="0">(.*)</p>~',$page_content,$res)){
 //set time zone
 date_default_timezone_set('America/Vancouver');
 
-$remotedic='/var/www/html/qmd/';
+$remotedic='/home/april/app/Signature/';
 $localdic='/Users/apple/Sites/Signature/';
 
 $dic=$remotedic;
